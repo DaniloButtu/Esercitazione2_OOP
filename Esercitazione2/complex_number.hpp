@@ -148,7 +148,7 @@ ostream& operator<<(ostream& output_stream, const complex_number<T>& z)
 }
 
 
-//Implemento la commutatività delle operazioni + - * (type T a sx)
+//Implemento la commutatività delle operazioni + * (type T a sx)
 template<typename T> 
 complex_number<T> 
 operator+(const T& t, const complex_number<T>& z)

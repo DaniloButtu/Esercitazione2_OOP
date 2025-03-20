@@ -12,6 +12,12 @@ int main(void){
     cout<<z+2.0<<' '<<2.0+z<<endl;
     cout<<4.0*z<<' '<<z*4.0<<endl;
     cout<<5.0*w<<' '<<w*5.0<<endl;
+    cout<<z.conj()<<' '<<z<<endl;
+    cout<<z.Re()<<' '<<z.Im()<<endl;
+
+    C_num x, y(0,0);
+    cout<<x<<' '<<y<<endl;
+    cout<<x.conj()<<' '<<y.conj()<<endl;
 
 
     return 0;

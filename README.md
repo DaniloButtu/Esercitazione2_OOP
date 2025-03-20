@@ -1,2 +1,2 @@
 # Esercitazione2_OOP
-This folder contains the exercise related to overload operator and classes executed by Danilo Buttu
+TThis repository contains the OOP exercise, done by Danilo Buttu (s311216)

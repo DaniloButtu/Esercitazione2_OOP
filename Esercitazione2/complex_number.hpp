@@ -153,7 +153,8 @@ operator+(const T& t, const complex_number<T>& z)
 }
 
 template<typename T>
-complex_number<T> operator*(const T& t, const complex_number<T>& z)
+complex_number<T> 
+operator*(const T& t, const complex_number<T>& z)
 {
     return z*t;
 }

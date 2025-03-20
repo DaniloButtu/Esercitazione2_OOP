@@ -34,13 +34,14 @@ class complex_number
 
         T Im(void) const 
         {
-            return imm_part;
-        }
-
+            return imm_part;   
+        } 
+        
         complex_number conj(void) const 
         {
-            return complex_number(real_part,-imm_part);   
-        }
+            return complex_number(real_part,-imm_part);     
+        }   
+    
 
         //overload degli operatori richiesti 
         //Definisco l'operatore += e + tra due complex_numbers, facendo overloading
